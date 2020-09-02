@@ -7,14 +7,41 @@
     android:background="#2E313A"
     tools:context=".MainActivity">
 
+    // Simple Arc
     <Button
-        android:layout_width="wrap_content"
+        android:id="@+id/simple_arc"
+        android:layout_width="260dp"
         android:layout_height="wrap_content"
-        android:text="Show"
-        android:textColor="@android:color/white"
-        android:backgroundTint="@color/colorPrimary"
         android:layout_centerInParent="true"
-        android:onClick="showProgress"
-        />
+        android:backgroundTint="@color/colorPrimary"
+        android:onClick="simplearc"
+        android:text="Simple Arc"
+        android:textColor="@android:color/white" />
+
+    // Simple Arc with Custom Color
+    <Button
+        android:id="@+id/simple_arc_customcolor"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/simple_arc"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:onClick="simplearcCustomColor"
+        android:text="Simple Arc With Custom Color"
+        android:textColor="@android:color/white" />
+
+    // comple Arc
+    <Button
+        android:id="@+id/complete_arc"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/simple_arc_customcolor"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:onClick="completeArc"
+        android:text="Complete Arc"
+        android:textColor="@android:color/white" />
 
 </RelativeLayout>

@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Custom Progressbar</string>
+
+    <array name="color_1" >
+        <item>#E8BF0D</item>
+    </array>
+
 </resources>
